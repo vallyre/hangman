@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+button:focus, textarea:focus {
+  outline: none; }
+
+img {
+  max-width: 100%;
+  width: 100%; }
+
+.hover {
+  color: white;
+  background-color: #0d3342; }
+
+.is-hidden {
+  display: none; }
+
+.space-after {
+  padding-bottom: 2rem; }
+
+body {
+  color: #0d3342;
+  background: #6f9daf;
+  font-family: "Michroma", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  width: 95%; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2rem; }
+
+#letter-container {
+  min-height: 3vh; }
+
+#letter-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 70%; }
+
+#word-container {
+  font-size: 3rem; }
+
+#my-word {
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+#my-word li {
+  display: inline-block;
+  font-size: 1.6em;
+  list-style: none;
+  margin: 0;
+  padding: 0 10px;
+  position: relative; }
+
+.alphabet {
+  background-color: #42798f;
+  border-radius: 50%;
+  min-width: 45px;
+  padding: 0.5rem; }
+  .alphabet:hover {
+    background-color: #0d3342;
+    color: white; }
+
+.myWord {
+  border-bottom: 3px solid #0d3342;
+  margin: 5px;
+  padding: 5px; }
+
+.turns {
+  background: #42798f;
+  margin: 0 auto; }
+
+.reset {
+  background-color: #7aa7b9;
+  border: none;
+  color: #608c9e;
+  font-size: 1rem;
+  font-family: "Michroma", sans-serif;
+  margin: 20px;
+  padding: 15px 40px;
+  text-transform: uppercase; }
+
+.reset-show {
+  background: #0d3342;
+  color: white; }
+  .reset-show:hover {
+    background-color: #42798f;
+    color: #0d3342; }
+
+/*# sourceMappingURL=main.css.map */
