@@ -1,2 +1,2 @@
 # hangman
-https://marinasiena.github.io/hangman/
+https://vallyre.github.io/hangman/
