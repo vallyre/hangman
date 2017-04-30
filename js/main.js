@@ -30,7 +30,6 @@
                 letters.appendChild(list);
                 list.addEventListener("click", () => {
                     let guess = (alphabet[i]);
-                    console.dir(list);
                     event.target.style.backgroundColor = '#7aa7b9';
                     event.target.style.color = '#608c9e';
 
@@ -59,7 +58,7 @@
             while (currentWord.length < 3) {
                 currentWord = (wordData[Math.floor(Math.random() * wordData.length)]).content;
             }
-            console.log('currentWord ', currentWord);
+            console.log('currentWord: You didnt think Id actually put the word here, did you?');
             for (let i = 0; i < currentWord.length; i++) {
                 guessArray[i] = '_';
             }
@@ -109,7 +108,6 @@
         function resetBtn() {
             resetButton.classList.add('reset-show');
             resetButton.addEventListener('click', () => {
-                console.log('in');
                 myAlphabet.removeChild(letters);
                 letters.removeChild(list);
                 location.reload();
